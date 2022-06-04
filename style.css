@@ -7,6 +7,9 @@ body{
     
     display: flex;
     height: 350px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
 }
 .header{
     background-color: #0067a5;
@@ -21,6 +24,28 @@ body{
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 10px;
+}
+.bodyinfo{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 40px;
+}
+.card{
+    height: 150px;
+    width:150px;
+    border: 2px solid blue;
+    border-radius:12px;
 }
 ul{
     list-style: none;
@@ -48,14 +73,14 @@ a{
 .img{
     height: 150px;
     width:300px ;
-    background-color: grey;
+    background-color: rgb(78, 88, 97);
 }
 button{
     border: 2px white;
     padding: 5px 20px;
     background-color: rgb(12, 137, 240);
     color: #fff;
-    border-radius: 6px 6px;
+    border-radius: 4px 4px;
 }
 .say1{
     font-weight: bold;
@@ -63,5 +88,59 @@ button{
     color:white;
 }
 .say2{
+    color: #fff;
+}
+.word{
+    height: 300px;
+    background-color: #d3d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.word .text{
+    width: 700px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+figcaption{
+    align-self: flex-end;
+}
+.info{
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.box{
+    display: flex;
+    width: 800px;
+    background-color: rgb(12, 137, 240); 
+    height: 150px;
+    border-radius: 4px 4px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box .box1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;   
+}
+.button{
+    border: 2px solid white;
+}
+.box .box1 .text1{
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e3146;
     color: #fff;
 }
