@@ -6,29 +6,31 @@ body{
 .body{
     
     display: flex;
-    height: 350px;
+    height: 550px;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 .header{
-    background-color: #0067a5;
+     background-color: rgba(15, 71, 13, 0.555); 
     height:50px;
     display: flex;
     justify-content: space-around;
 }
 .hero{
-    height: 300px;
-    background-color: #0e3146;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    
 }
 .container{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 70px;
 }
 .join{
     display: flex;
@@ -42,8 +44,8 @@ body{
     margin: 40px;
 }
 .card{
-    height: 150px;
-    width:150px;
+    height: 200px;
+    width:200px;
     border: 2px solid blue;
     border-radius:12px;
 }
@@ -54,13 +56,15 @@ ul{
 }
 a{
     text-decoration: none;
-    color:#fff;
+    color:rgb(12, 6, 6);
     font-size: 24px;
 }
 .logo{
     align-self: center;
     font-weight: 900;
     font-size: 32px;
+    display: flex;
+    gap: 20px;
 }
 .noti{
     display:flex;
@@ -71,14 +75,14 @@ a{
     gap: 16px
 }
 .img{
-    height: 150px;
-    width:300px ;
+    height: 350px;
+    width:550px ;
     background-color: rgb(78, 88, 97);
 }
 button{
     border: 2px white;
     padding: 5px 20px;
-    background-color: rgb(12, 137, 240);
+    background-color: rgb(11, 166, 255);
     color: #fff;
     border-radius: 4px 4px;
 }
@@ -92,10 +96,10 @@ button{
 }
 .word{
     height: 300px;
-    background-color: #d3d3d3d3;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(255, 255, 255);
 }
 .word .text{
     width: 700px;
@@ -109,7 +113,7 @@ figcaption{
 }
 .info{
     height: 300px;
-    background-color: #fff;
+    background-color:#fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +121,7 @@ figcaption{
 .box{
     display: flex;
     width: 800px;
-    background-color: rgb(12, 137, 240); 
+    background-color:rgba(15, 71, 13, 0.555); 
     height: 150px;
     border-radius: 4px 4px;
     justify-content: space-around;
@@ -141,6 +145,33 @@ figcaption{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0e3146;
+    background-color: #1f2937;
     color: #fff;
+}
+img{
+    max-width: auto;
+    max-height: 100%; 
+
+}
+.mouse{
+    height: 40px;
+    width: auto;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    background-image: url("image/network-ge1a19d733_1280.jpg"); 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.great{
+    width: 550px;
+    height: 350px;
 }
